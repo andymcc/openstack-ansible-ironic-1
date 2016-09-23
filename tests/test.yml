@@ -22,8 +22,20 @@
 # Install Keystone
 - include: playbooks/test-install-keystone.yml
 
+# Install Swift
+- include: playbooks/test-install-swift.yml
+
+# Install Glance
+- include: playbooks/test-install-glance.yml
+
+# Install Neutron
+- include: playbooks/test-install-neutron.yml
+
+# Install Nova
+- include: playbooks/test-install-nova.yml
+
 # Install Ironic
-- include: test-install-ironic.yml
+- include: playbooks/test-install-ironic.yml
 
 # Test REST API
 - include: test-rest-api.yml

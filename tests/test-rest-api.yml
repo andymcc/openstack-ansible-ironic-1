@@ -169,4 +169,3 @@
     #     return_content: yes
   vars_files:
     - playbooks/test-vars.yml
-    - test-vars.yml
